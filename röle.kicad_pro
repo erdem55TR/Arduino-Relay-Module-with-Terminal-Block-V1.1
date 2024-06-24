@@ -468,7 +468,7 @@
       "plot": "geber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "röle.step",
       "svg": "",
       "vrml": ""
     },

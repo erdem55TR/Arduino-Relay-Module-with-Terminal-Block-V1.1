@@ -1610,6 +1610,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a92cd9c-786c-41ed-9040-82059bb338c6")
+	)
+	(wire
+		(pts
 			(xy 49.53 67.31) (xy 50.8 67.31)
 		)
 		(stroke
@@ -1680,6 +1690,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 52.07) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d8125b-8ad2-4972-a44b-ee1ca931b5c2")
+	)
+	(wire
+		(pts
 			(xy 102.87 49.53) (xy 104.14 49.53)
 		)
 		(stroke
@@ -1697,6 +1717,16 @@
 			(type default)
 		)
 		(uuid "85779d75-a906-40e0-8781-418e0c4e0ace")
+	)
+	(wire
+		(pts
+			(xy 127 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcae681-1d2c-4588-8df1-ad87abcfaacb")
 	)
 	(wire
 		(pts
@@ -1737,16 +1767,6 @@
 			(type default)
 		)
 		(uuid "afe16041-d92c-48fe-9e67-d192b969bbd6")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 146.05 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b038a32c-ac67-43de-a1b8-1a0f411a09e1")
 	)
 	(wire
 		(pts
@@ -1827,6 +1847,16 @@
 			(type default)
 		)
 		(uuid "c9115299-d1a0-42bb-9ca3-82a2ebe12c5c")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4483d4-2161-4933-a043-d411cc684373")
 	)
 	(wire
 		(pts
@@ -2030,7 +2060,7 @@
 	)
 	(global_label "12v"
 		(shape input)
-		(at 146.05 71.12 0)
+		(at 153.67 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2038,9 +2068,9 @@
 			)
 			(justify left)
 		)
-		(uuid "80a3852a-caf7-4a17-988d-5221921f16c2")
+		(uuid "6e955985-033e-4af4-af6e-9801b57779fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4218 71.12 0)
+			(at 160.0418 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,6 +2159,28 @@
 		(uuid "dd6e8d0d-9c67-423d-a437-e5d2eaf733e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.0184 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 134.62 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3d00510-2bed-4443-8f6d-ce778920551d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.9918 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,6 +2371,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 146.05 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32bdf408-b057-41b8-8663-81cc9fa63f9d")
+		(property "Reference" "D3"
+			(at 144.4625 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 144.4625 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c428eea8-44bc-4bdc-95f7-de72fb8f6c95")
+		)
+		(pin "2"
+			(uuid "7c8e0f26-0e46-4d4c-b8c2-1ac00df218df")
+		)
+		(instances
+			(project "röle"
+				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 44.45 67.31 0)
 		(unit 1)
@@ -2383,6 +2503,74 @@
 			(project "röle"
 				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619bbbc7-f1c2-460e-9eef-3fca5be24495")
+		(property "Reference" "R3"
+			(at 134.62 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 134.62 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 134.62 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c6e0668-156c-474d-ac81-44947433d40e")
+		)
+		(pin "1"
+			(uuid "dab86aae-b3be-4c6e-bafd-fcff739d43da")
+		)
+		(instances
+			(project "röle"
+				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2658,6 +2846,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 127 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90195680-3c49-4a6f-aef5-68256b5015d5")
+		(property "Reference" "#PWR03"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71415acc-8e61-43d5-b652-22e3a70645c2")
+		)
+		(instances
+			(project "röle"
+				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 105.41 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2717,74 +2971,6 @@
 			(project "röle"
 				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 138.43 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e521ab3-5531-4581-9ad5-6cbdcde1f281")
-		(property "Reference" "D3"
-			(at 136.8425 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 136.8425 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c95c7006-7c6c-4f94-844c-b99a944b4305")
-		)
-		(pin "2"
-			(uuid "92ca1bd1-4d8b-4db6-89e4-2dc9354f08e3")
-		)
-		(instances
-			(project "röle"
-				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b2eec9-eb50-45ab-87ff-7d4aa019b480")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 127 64.77 90)
 			(effects
 				(font
@@ -3066,7 +3252,7 @@
 		(instances
 			(project "röle"
 				(path "/711123ed-1fea-4119-8f2e-d71af9db2218"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
